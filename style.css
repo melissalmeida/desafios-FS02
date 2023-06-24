@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+#logo img {
+    height: 150px;
+}
+
+#container {
+    height: 130vh;
+    background-image: url("bg_netflix.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#black {
+    height: 130vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.450);
+}
+
+#form form{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.723);
+    height: 1000px;
+    width: 700px;
+    padding: 90px;
+}
+
+.form-control{
+    background-color: #333333c4;
+    padding: 24px;
+    color: white !important;
+    border: none !important;
+}
+
+input::placeholder{
+    color: #979797c4 !important;
+    font-size: 22px;
+}
+
+form button{
+    background-color: #E50914 !important;
+    margin: 36px 0px 16px 0px;
+    width: 100%;
+    height: 66px;
+
+    font-size: 22px !important;
+    font-weight: bold !important;
+}
+
+#help a{
+    color: #737361;
+    text-decoration: none !important;
+}
+
+#help a:hover{
+    text-decoration: underline !important;
+}
+
+#help label,
+h2,
+h5{
+    color: #737361 !important;
+}
+
+#assine{
+    color: white;
+    text-decoration: none !important;
+}
+
+#assine:hover,
+#form a:hover{
+    text-decoration: underline !important;
+}
+
+#form a{
+    text-decoration: none !important;
+}
+
+.nav-item a{
+    color: #617373 !important;
+}
+
+.nav-item a:hover{
+    text-decoration: underline;
+}
+
+#black2{
+    height: 410px;
+    width: 99vw;
+    background-color:rgba(0, 0, 0, 0.823);
+}
+
+.dropdown button{
+    background-color: #000000;
+}
+
+
