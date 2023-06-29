@@ -10,8 +10,8 @@
     font-family: 'Montserrat', sans-serif !important;
 }
 
-#logo img {
-    height: 150px;
+html, body{
+    height: 130vh;
 }
 
 #container {
@@ -31,9 +31,6 @@
 #form form{
     color: white;
     background-color: rgba(0, 0, 0, 0.723);
-    height: 1000px;
-    width: 700px;
-    padding: 90px;
 }
 
 .form-control{
@@ -52,7 +49,7 @@ form button{
     background-color: #E50914 !important;
     margin: 36px 0px 16px 0px;
     width: 100%;
-    height: 66px;
+    min-height: 66px;
 
     font-size: 22px !important;
     font-weight: bold !important;
@@ -70,7 +67,7 @@ form button{
 #help label,
 h2,
 h5{
-    color: #737361 !important;
+    color: #909898 !important;
 }
 
 #assine{
@@ -88,21 +85,34 @@ h5{
 }
 
 .nav-item a{
-    color: #617373 !important;
+    color: #909898 !important;
 }
 
 .nav-item a:hover{
     text-decoration: underline;
 }
 
-#black2{
-    height: 410px;
-    width: 99vw;
-    background-color:rgba(0, 0, 0, 0.823);
-}
-
 .dropdown button{
     background-color: #000000;
 }
 
+#icon{
+    margin-left: 6px;
+    margin-right: 16px;
+}
 
+
+@media only screen and (max-width: 770px) {
+#form form{
+    padding: 26px;
+    height: 500px;
+    width: 500px;
+}}
+
+
+footer{
+    height: 30vh;
+    width: 100%;
+    bottom: -30vh;
+    background-color:rgba(0, 0, 0, 0.823);
+}
