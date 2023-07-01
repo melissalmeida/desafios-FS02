@@ -11,11 +11,11 @@
 }
 
 html, body{
-    height: 130vh;
+    height: 140vh;
 }
 
 #container {
-    height: 130vh;
+    height: 140vh;
     background-image: url("bg_netflix.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@ html, body{
 }
 
 #black {
-    height: 130vh;
+    height: 140vh;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.450);
 }
@@ -31,10 +31,13 @@ html, body{
 #form form{
     color: white;
     background-color: rgba(0, 0, 0, 0.723);
+    width: 450px;
+    height: 600px;
 }
 
 .form-control{
     background-color: #333333c4;
+    height: 1rem;
     padding: 24px;
     color: white !important;
     border: none !important;
@@ -42,21 +45,22 @@ html, body{
 
 input::placeholder{
     color: #979797c4 !important;
-    font-size: 22px;
+    font-size: 14px;
 }
 
 form button{
     background-color: #E50914 !important;
     margin: 36px 0px 16px 0px;
     width: 100%;
-    min-height: 66px;
+    min-height: 50px;
 
-    font-size: 22px !important;
+    font-size: 18px !important;
     font-weight: bold !important;
 }
 
 #help a{
     color: #737361;
+    font-size: 14px !important;
     text-decoration: none !important;
 }
 
@@ -68,10 +72,12 @@ form button{
 h2,
 h5{
     color: #909898 !important;
+    font-size: 14px !important;
 }
 
 #assine{
     color: white;
+    font-size: 12px !important;
     text-decoration: none !important;
 }
 
@@ -105,14 +111,27 @@ h5{
 @media only screen and (max-width: 770px) {
 #form form{
     padding: 26px;
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 400px;
 }}
 
 
 footer{
-    height: 30vh;
+    height: 40vh;
     width: 100%;
-    bottom: -30vh;
+    bottom: -40vh;
     background-color:rgba(0, 0, 0, 0.823);
+}
+
+#down-side{
+    width: 60%;
+}
+
+footer ul {
+    font-size: 12px;
+    padding: 0;
+}
+
+.dropdown button {
+    color: #737361;
 }
