@@ -132,14 +132,14 @@ footer{
 }
 
 #down-side{
-    /* width: 60%; */
+    width: 60%;
 }
 
 footer ul {
-    width: 80%;
+    /* width: 80%; */
     font-size: 12px;
     padding: 0 !important;
-    gap: 10px 50px;
+    gap: 10px 100px;
 }
 
 .dropdown button {
